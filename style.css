@@ -1,0 +1,140 @@
+body
+{
+background-color: rgb(241, 241, 241);
+border: 1px solid rgb(116, 167, 243);
+}
+
+#logo
+{
+width: 100px;
+height: 100px;
+}
+
+h1
+{
+    font-size: 40px;
+    color: rgb(255, 60, 0);
+}
+
+h2
+{
+margin-top:-80px;
+font-size: 40px;
+color: rgb(255, 60, 0);
+}
+
+#text
+{
+    margin-left: 100px;
+    margin-right: 205px;
+    text-align: left;
+    color: black;
+}
+
+#pic
+{
+    margin-top: -180px;
+    margin-left: 900px;
+    margin-right:100px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.card {
+    flex: 0 0 30%;
+    box-sizing: border-box;
+    color: black;
+    margin: 0.5rem .18em;
+    background-color: antiquewhite;
+    align-items: center;
+    font-size: medium;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+}
+.image{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.582);
+    margin: 10px;
+    color: black;
+    width: 214.542px;
+    background: rgb(241, 241, 241);
+    min-height: 250px;
+    min-width: 290px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name
+{
+    background-color: rgb(206, 217, 253);
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+}
+
+#name_2
+{
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#about{
+    font-size: 15px;
+    padding: 4px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.image-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#part1
+{
+font-size: 20px;
+color: rgb(255, 60, 0);
+}
+
+h3
+{
+font-size: 25px;
+margin-left: 90px;
+margin-top:70px;
+color: rgb(255, 60, 0);
+width: 100%;
+}
+.copy_right_footer {
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff0000;
+    line-height: 3;
+    text-align: center;
+    font-weight: 600;
+ }
+ .cntact_1 a {
+    color: white;
+    text-shadow: none;
+
+}
+#email {
+    text-decoration: none;
+    color: white;
+}
+
+#coordinates {
+    text-decoration: none;
+    color: black;
+}
